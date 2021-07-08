@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+git add .
+git commit
+
+if [ $1 = 'push' ];
+then
+	git push
+fi
+
